@@ -60,6 +60,7 @@ public class LocalitaService{
 		}
 	}
 	//commento per verificare merge su github
+	//commento post branch locale
 	public List<Localita> read() {
 		return localitaRepository.findAll();
 	}

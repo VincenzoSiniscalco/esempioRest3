@@ -59,7 +59,7 @@ public class LocalitaService{
 			e.printStackTrace();
 		}
 	}
-	
+	//commento per verificare merge su github
 	public List<Localita> read() {
 		return localitaRepository.findAll();
 	}
